@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+* {
+    font-family: "Open Sans";
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+.logo-img {
+    width: 150px;
+}
+
+.more-details-price-cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.more-details-btn {
+    border: solid 1px red;
+    border-radius: 5px;
+    width: 130px;
+    background-color: transparent;
+    height: 40px;
+}
+
+.holiday-packages-section {
+    padding-top: 15px;
+    background-color: #D4F1F4;
+    padding-bottom: 10px;
+}
+
+.package-card {
+    border: solid 1px lightgrey;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 400px;
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+.section-main-heading {
+    color: #05445E;
+    font-weight: bold;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.package-card-heading {
+    color: #189AB4;
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.icon-container {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+span {
+    color: red;
+}
+
+.striked-price {
+    color: #189AB4;
+    text-decoration: line-through;
+    text-decoration-color: red;
+    margin-bottom: 0px;
+    font-size: 15px;
+}
+
+.highlighted-price {
+    color: black;
+    font-size: 25px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.packages-card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hotel-img {
+    width: 50%;
+    border-radius: 10px;
+}
+
+#homeSection {
+    height: 50vh;
+    width: 100%;
+    background-image: url("https://img.freepik.com/free-vector/realistic-travel-background-with-elements_52683-77784.jpg?t=st=1710441473~exp=1710445073~hmac=5394415bbbd38f33335aa884c4e63905987dfd17194cbf71c4e28fc4f15f7bb6&w=1480");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-section-heading {
+    color: #042F39;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.footer-section {
+    background-color: #A3EBB1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-section-mail-id {
+    color: #959ead;
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.footer-section-address {
+    color: #959ead;
+    font-family: "Roboto";
+    font-size: 14px;
+}
+
+.footer-section-logo-img {
+    width: 200px;
+}
+
+.flight-booking-section {
+    background-color: #385E72;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.grey-color {
+    color: #D9E4EC;
+}
+
+.form-cont {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.text-25 {
+    font-size: 25px;
+}
+
+.form-heading {
+    font-family: "Roboto";
+    font-size: 36px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.gender-field-heading {
+    color: #212529;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.flight-results-conatiner {
+    margin-top: 10px;
+}
+
+.each-result-cont {
+    background-color: white;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+.flight-deatils-cont {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flight-offer-cont {
+    background-color: #F1CCD7;
+    border-radius: 5px;
+    font-size: 10px;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.flight-deatils-btn-cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 15px;
+}
+
+.arrow-icon-cont {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 13px;
+}
+
+.book-now-btn {
+    height: 40px;
+    width: 120px;
+    border: none;
+    font-size: 14px;
+    background-color: #638C80;
+    color: white;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+.text-12 {
+    font-size: 12px;
+}
+
+.packages-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.package-cont {
+    height: 200px;
+    width: 300px;
+    border-radius: 10px;
+    background-size: cover;
+    display: flex;
+    padding: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.bg-1 {
+    background-image: url("https://img.freepik.com/free-photo/beautiful-scenery-chamarel-waterfall-mauritius-cloudy-sky_181624-19823.jpg?t=st=1710496398~exp=1710499998~hmac=59a783b15373aae63b69983618eb118736a593d5938fa2bd5c058d602981ea63&w=1480");
+}
+
+.bg-2 {
+    background-image: url("https://img.freepik.com/free-photo/big-ben-westminster-bridge-sunset-london-uk_268835-1395.jpg?t=st=1710496909~exp=1710500509~hmac=fb37f47de790a1e21551d1bccdf4145ecfcf1fc0fba1983e682066eb5e8c92ec&w=1480");
+}
+
+.bg-3 {
+    background-image: url("https://img.freepik.com/free-photo/tourists-take-boat-ban-rak-thai-village-mae-hong-son-province-thailand_335224-1304.jpg?t=st=1710496986~exp=1710500586~hmac=3e90afdfcd3c83fd7fb1c99646eb0fe229d03a35513412e11d20295fb9c07f7e&w=1480");
+}
+
+.bg-4 {
+    background-image: url("https://img.freepik.com/free-photo/tokyo-cityscape-night-japan_335224-27.jpg?t=st=1710497068~exp=1710500668~hmac=78d4bb4a9792f9a844802d04af428197d00e2d26fc2b0a5914d5317df83c79ce&w=1480");
+}
+
+.bg-5 {
+    background-image: url("https://img.freepik.com/free-photo/beautiful-shot-mountain-clouds-himalayas-bhutan_181624-46722.jpg?t=st=1710497166~exp=1710500766~hmac=8dfdc2cdd6e5e606475e2bdd6e2c86712e6257f1093d1390747a5be2c08d5385&w=1480");
+}
+
+.bg-6 {
+    background-image: url("https://img.freepik.com/free-photo/beautiful-landscape_8327-295.jpg?t=st=1710497228~exp=1710500828~hmac=1b859159375be81f6a49340b89de3be93b72e60cf4b561bd66c04dc6da9ad0ae&w=1480");
+}
+
+.bg-7 {
+    background-image: url("https://img.freepik.com/free-photo/beautiful-shot-small-village-surrounded-by-lake-snowy-hills_181624-37802.jpg?t=st=1710497313~exp=1710500913~hmac=bac7300cef633ca927c3e8d7a70bf816783c3a3ff869e2a861c4ca04664dafa1&w=1480");
+}
+
+.bg-8 {
+    background-image: url("https://img.freepik.com/free-photo/india-fog-tea-cool-tea-leaves_1376-20.jpg?t=st=1710497363~exp=1710500963~hmac=857ca9fdc06ca2614072094ba627547113a13a3c160482dfabe703cdd2570d56&w=1800");
+}
+
+@media screen and (min-width:567px) {
+    .section-main-heading {
+        font-size: 25px;
+    }
+
+    .packages-card-container {
+        flex-direction: row;
+        align-items: flex-start;
+        overflow-x: scroll;
+    }
+
+    .package-card {
+        margin-right: 10px;
+        flex-shrink: 0;
+    }
+
+    .booking-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .form-cont {
+        flex-grow: 0;
+        align-self: center;
+        height: 450px;
+        width: 40%;
+    }
+
+    .flight-results-conatiner {
+        max-height: 450px;
+        width: 60%;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-left: 10px;
+        align-self: center;
+        flex-grow: 1;
+        overflow-y: scroll;
+    }
+
+    .text-12 {
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width:767px) {
+    .home-section-heading {
+        font-size: 35px;
+    }
+
+    .section-main-heading {
+        font-size: 30px;
+    }
+}
